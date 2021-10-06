@@ -1,0 +1,157 @@
+@font-face{
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'and';
+    src: url('android-site.txt') format('opentype');
+}
+
+
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #84E1AD;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, #3BD27F, #1A5B37);
+    color: white;
+    max-width: 100%;
+    min-width: 230px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+.titulo_inicial{
+    font-family: 'and';
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.paragrafo_inicial {
+    font-family: 'and';
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+a.externo {
+    background-image: linear-gradient( to right, #b1f3cf ,#bcf7d5);
+    color: #005c29;
+    text-decoration: none;
+    padding: 4px;
+}
+ 
+
+a.externo::after{
+    content: '🔗';
+ }
+
+
+nav{
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0,0,0 0.192);
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+
+    
+}
+
+
+a:hover{
+    background-color: #3bd27f41;
+}
+
+
+
+main {
+    background-color: white;
+    max-width: 830px;
+    min-width: 230px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+
+footer{
+    background-color: #1A5C38;
+    max-width: 100%;
+    min-width: 230px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+section {
+    background-color: #b8e9ce;
+    border-radius: 5px;
+    
+}
+
+
+section  p {
+    padding: 0px 2px 0px 2px;
+}
+
+
+h3 {
+    background-color: #2FA866;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+iframe {
+    width: 100%;
+    
+}
+
+
+h2 {
+    background-image: linear-gradient(to right, #b4e2c9, #DAF3E5);
+    font-family: 'droid';
+    margin: 10px 0px 10px 0px;
+}
+
+
+p{
+    font-family: 'and';
+    margin: 10px 0px 10px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+section > ul{
+    column-count: 2;
+    list-style-position: inside;
+}
+
